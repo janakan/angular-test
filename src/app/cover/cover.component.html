@@ -1,0 +1,5 @@
+<p name="cover-element-header">
+  Cover Element
+</p>
+<app-thumbnail name="app-thumbnail-repeat" *ngFor="let item of items" [item]="item.name" (click)="handleMe()"></app-thumbnail>
+<app-thumbnail name="app-thumbnail-single" [item]="thumbnail" (click)="handleMe()"></app-thumbnail>
